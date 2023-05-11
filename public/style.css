@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(17, 14, 11);
+}
+
+.left_header {
+   padding-right: 5px;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.search input {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search button {
+    position: absolute;
+    font-size: 23px;
+    background-color: #FFE500;
+    right: 0px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.search button:hover {
+    background-color: #f2c305;
+}
+
+.search i {
+    font-size: 22px;
+    opacity: 0.3;
+    padding: 5px;
+}
+
+.header-right {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    background-color: #24211E;
+    /* padding: 5px; */
+    margin: 10px 0px;
+}
+
+.header-right i{
+    font-size: 25px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(17, 14, 11);
+    font-size: 15px;
+}
+
+
+
+.menu-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.leftmenu {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    background-color: #24211E;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.leftmenu:hover p {
+    color: #FFE500;
+    cursor: pointer;
+}
+
+
+.submenu {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    display: none;
+    
+}
+
+
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submenu li {
+    padding: 10px 0px;
+    color: black;
+    list-style: none;
+    
+}
+
+.submenu li:hover {
+    color: #FFE500;
+    cursor: pointer;
+}
+
+.leftmenu:hover .submenu {
+    display: block;
+}
+
+.fa-arrow-down {
+    padding: 5px;
+}
+
+.menu-nav {
+    height: 100%;
+    padding: 10px ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.menu-nav ul li:hover a {
+    color: #FFE500;
+}
+
+.rightmenu {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #FFE500;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+
+
+.rightmenu a{
+    color: black;
+    text-decoration: none;
+}
+
+.rightmenu:hover a{
+    color: white;
+}
+
+.banner {
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+}
+
+.group-tabs li {
+   padding: 20px;
+}
+
+
+.img-presentation {
+    border-radius: 100%;
+}
+
+.nav-tabs .nav-item .nav-link, .nav-tabs .nav-link{
+    color: white ;
+}
+
+.nav-link{
+    width: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #f2c305 !important;
+}
+
+.text-presentation {
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card{
+    margin: 10px 0px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.img-grid{
+    position: relative;
+}
+
+.freeship{
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid rgb(255,229,0);
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(255,229,0);
+    padding: 1px 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.gia1{
+    text-decoration-line: line-through;
+    font-size: 13px;
+}
+
+.giamgia{
+    background-color: rgb(255,229,0);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.gia2{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.block-logo {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.sanphamhang {
+    position: relative;
+    border-radius: 15px;
+    background: black;
+    margin-bottom: 30px;
+}
+
+.product-carousel {
+    margin-right: 10px;
+    position: relative;
+}
+
+
+
+.background-item{
+    background-color: white;
+}
+
+.group-tabs li a{
+    color: white;
+}
+
+.owl-next{
+    position: absolute;
+    font-size: 80px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    opacity: 0.5 !important;
+    background-color: #f9f7f1 !important;
+}
+
+.owl-prev{
+    position: absolute;
+    font-size: 80px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    opacity: 0.5 !important;
+    background-color: #f9f7f1 !important;
+}
+
+.product-carousel:hover .owl-prev{
+    opacity: 1 !important;
+    background-color: #e5e3dc !important;
+}
+.product-carousel:hover .owl-next{
+    opacity: 1 !important;
+    background-color: #e5e3dc !important;
+}
+
+.product-carousel a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu-fixed ul {
+    padding: 5px;
+}
+
+.menu-fixed h4{
+    color: rgb(93, 93, 93);
+}
+
+.menu-fixed h4:hover{
+    color: white;
+}
+
+.menu-fixed a:hover{
+    color: white;
+    background: rgb(117, 117, 117);
+}
+
+.menu-fixed a {
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(93, 93, 93);
+    
+}
+
+.tat{
+    float: right;
+}
+
+.menu-fixed {
+    position: fixed;
+    right: -300px;
+    background: black;
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.ra{
+    right: 0;
+}
+
+.body-header{
+    position: relative;
+}
+.nut-menu a{
+    color: white;
+}
+
+.nut-menu {
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    display: none;
+}
+
+/* ggggggggggggggggggggggggggggggggggg */
+.newsfeed{
+    padding-bottom: 20px;
+}
+.news-events {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.news-events>a {
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.body_news {
+    display: flex;
+}
+
+.subnews {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.news a{
+    text-decoration: none;
+    color: black;
+}
+
+.news img {
+    width: auto;
+    height: auto;
+    max-width: 120px;
+    padding: 5px;
+}
+
+.saoviet_shopping {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.xemthem{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 120px;
+    display: table;
+    margin: auto;
+}
+
+.xemthem:hover {
+    background-color: rgb(232, 140, 3);
+}
+
+.saoviet_shopping > a {
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.slide-saoviet {
+    padding: 10px 0px;
+}
+
+
+.body-footer{
+    padding: 30px;
+}
+
+footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.body-footer li{
+    list-style: none;
+    padding: 3px 0px;
+}
+
+.body-footer li a{
+    color: white;
+    text-decoration: none;
+    /* font-size: 15px; */
+}
+
+.thong-tin li a{
+    color: rgb(209,194,114);
+}
+
+.tongdai-non{
+    padding: 5px;
+}
+
+.trungtambaohanh-non{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+
+.tongdaihotro{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.tongdaihotro h6{
+    color: rgb(209,194,114);
+}
+
+.trungtambaohanh{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.trungtambaohanh h6{
+    color: rgb(209,194,114);
+}
+
+.ketnoi{
+    padding: 10px;
+  
+}
+
+.ketnoi h6{
+    color: rgb(209,194,114);
+}
+
+.ketnoi a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-mobile{
+    display: none;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .nut-menu{
+        display: block;
+    }
+
+    .macdinh-sanphamhang{
+        display: none;
+    }
+
+    .footer-mobile{
+        display: block;
+    }
+
+    .footer-tabnetpc{
+        display: none;
+    }
+
+    .text-presentation{
+        font-size: 10px;
+        padding: 5px 0px;
+    }
+}
+
+@media only screen and (min-width: 766px){
+    .mobile-sanphamhang{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .none-lg {
+        display: none;
+    }
+    
+    nav{
+        font-size: 12px;
+    }
+
+    .text-presentation{
+        font-size: 12px;
+        
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .rightmenu {
+        display: none;
+    }
+
+    .leftmenu{
+        display: none;
+    }
+
+    .body_news{
+        display: block;
+    }
+
+    .saoviet_shopping{
+        margin-top: 20px;
+    }
+
+    .thong-tin{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .hethong{
+        display: none;
+    }
+
+    .giohang{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .giohang a{
+        background-color: transparent;
+    }
+
+    .giohang p{
+        display: none;
+    }
+}
+
+
+/* gggggggggggggggggggggggggg */
+.menu-fixed2 {
+    position: fixed;
+    left: -100%;
+    background:white;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: all 0.5s;
+    font-size: 12px;
+}
+
+.ra2{
+    left: 0;
+}
+
+.dong{
+    float: right;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: white;
+    margin: 10px 0px;
+}
+
+.non1-menufixed{
+    margin-bottom: 10px;
+}
+
+.non1-menufixed a{
+    text-decoration: none;
+    color: black;
+}
+
+.non1-muc{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(246, 246, 246);
+    padding: 8px;
+    border-radius: 3px;
+    margin: 5px 0px;
+}
+
+.non2-menufixed{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.non2-menufixed a{
+    text-decoration: none;
+}
+
+.non3-menufixed{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+.non3-menufixed a{
+    text-decoration: none;
+}
+
+.non4-menufixed{
+    border-top: 1px solid rgb(180, 180, 180);    
+    padding: 10px;
+}
+
+.non4-menufixed ul{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.non4-menufixed li{
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 8px;
+}
+
+.non4-menufixed a{
+    text-decoration: none;
+}
+
+
+
